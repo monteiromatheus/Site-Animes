@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Author">
+    <link rel="stylesheet" type="text/css" href="site.css" media="screen" />
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <title>Compras</title>
+</head>
+
+<body>
+    <div id="centroCompras">
+        <figcaption>Compras</figcaption>
+        <form action="/servidor-loja-dvd" method="POST">
+            <fieldset id="fsDados">
+                <legend>Dados Pessoais</legend>
+                <label for="name">Nome: </label>
+                <input type="text" id="impGrande" name="name">
+                <br>
+                <br>
+                <label for="endereco">Endereço: </label>
+                <textarea id="textarea1" rows="2" cols="53"></textarea>
+                <br>
+                <label for="cpf">CPF: </label>
+                <input type="text" id="impMedio" name="cpf">
+                <br>
+                <br>
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="impTel" name="telefone">
+                <br>
+                <br>
+                <label for="celular">Celular: </label>
+                <div id="aligncel">
+                    <input type="text" id="impTel" name="celular">
+                </div>
+                <div id="nascimento">
+                    <fieldset id="fsDir">
+                        <legend>Nascimento:</legend>
+
+                        <input type="number" id="numDD" name="aniversario"> /
+                        <input type="number" id="numDD" name="aniversario"> /
+                        <input type="number" id="numQD" name="aniversario">
+
+                    </fieldset>
+                    <fieldset id="fsDir">
+                        <legend>Genero: </legend>
+                        <div id="aligngender">
+                            <label class="container">
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                                Mas</label>
+                            <label class="container">
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                                Fem</label>
+                            <label class="container">
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                                Outro</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </fieldset>
+            <fieldset id="fsDados">
+                <legend>Seleção de Produtos e Pagamento</legend>
+                <label for="name">Produtos: </label>
+                <div id="aligndvd">
+                    <select id="dvd">
+                        <option>------</option>
+                        <optgroup label="Anime">
+                            <option value="deathnote">Death Note - DVD - Completo</option>
+                            <option value="narutoshippuden">Naruto Shippuden T01 Box 01</option>
+                            <option value="narutoshippuden">Naruto Shippuden T01 Box 02</option>
+                        </optgroup>
+                        <optgroup label="Mangá">
+                            <option value="narutogold">Naruto Gold - 55 Vol.</option>
+                            <option value="attackontitan">Attack on Titan - Vol 1-4</option>
+                            <option value="attackontitan">Attack on Titan - Vol 5-8</option>
+                            <option value="narutobox">Naruto Box P01 Vol 1-27</option>
+                        </optgroup>
+                        <optgroup label="Action Figure">
+                            <option value="narutoshippuden">Naruto Shippuden - PVC</option>
+                            <option value="ryouk"> Ryouk - Death Note - PVC</option>
+                        </optgroup>
+
+                    </select>
+                    <input id="comprar" type="submit" value="Comprar">
+                </div>
+
+                <div id="divLinha"></div>
+
+                <div id="meiaLinEsq">
+
+                    <fieldset id="fsEsq">
+                        <legend>Dados do Cartão</legend>
+                        <fieldset id="fsEsq">
+                            <legend>Bandeira</legend>
+                            <div id="alignbandeira">
+                                <label class="container">
+                                    <input type="radio" checked="checked" name="bandeira">
+                                    <span class="checkmark"></span>
+                                    Visa</label>
+                                <label class="container">
+                                    <input type="radio" name="bandeira">
+                                    <span class="checkmark"></span>
+                                    Master</label>
+                                <label class="container">
+                                    <input type="radio" name="bandeira">
+                                    <span class="checkmark"></span>
+                                    Amex</label>
+                            </div>
+                        </fieldset>
+                        <div id="alignvalid">
+                            <label for="name">Validade: </label>
+                            <div id="aligndatavalid">
+                                <input type="number" id="numDD" name="validade"> /
+                                <input type="number" id="numQD" name="validade">
+                            </div>
+                            <br>
+
+                            <label for="name">Numero: </label>
+                            <div id="alignnumero">
+                                <input type="text" id="impNCC" name="cpf">
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+                <textarea id="elemDir" rows="8" cols="20"></textarea>
+                <div id="valordacompra">
+                    <label for="name">Valor: R$ </label>
+                    <input type="text" id="valortotal" name="valor">
+                </div>
+            </fieldset>
+
+            <div id="botoes">
+
+                <input type="submit" id="custombotao" value="Enviar">
+                <input type="reset" id ="custombotao" value="Limpar">
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,536 @@
+/*---------------------------------------------------------------------------------*/
+/* ESTILOS REFERENTES AO EXERCÍCIO NÚMERO 2*/
+body {
+
+    background-color: #FFFFFF;
+    color: #BB0D0D;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+
+    display: block;
+    padding: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+nav {
+
+    display: block;
+    border-bottom: 2px solid;
+    padding: 4px;
+    bottom: 4px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.ender {
+
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border-top: solid 2px;
+    font-style: italic;
+
+}
+
+.imgLogo {
+
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+
+}
+
+.apres {
+
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    padding-top: 4px;
+
+
+
+}
+
+.menu {
+
+    /* ESSA CLASSE NÃO FOI UTILIZADA POIS AS ALTERAÇÕES NA AREA DE NAVEGAÇÃO (nav) 
+FORAM FEITAS DENTRO DO PRÓPRIO nav, CONFORME FOI PEDIDO NO QUADRO 2 ONDE É SOLICITADO
+MARGEM DE 2PX. OS LINKS FORAM ALTERADOS NA CLASSE botão; */
+    margin: 1px auto;
+
+}
+
+.botao {
+
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 100px;
+    text-decoration: none;
+    color: #FF0000;
+
+}
+
+section {
+
+    display: block;
+    padding: 4px;
+    bottom: 4px;
+    margin: 50px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+footer {
+
+    clear: both;
+
+}
+
+/* ESTILOS REFERENTES AO EXERCÍCIO NÚMERO 2*/
+/*---------------------------------------------------------------------------------*/
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 3 */
+.itemDestaq {
+
+    padding: 10px;
+    width: 430px;
+    height: 120px;
+    position: static;
+    margin-left: 25px;
+
+}
+
+.itemDesProd {
+
+    list-style-type: square;
+
+}
+
+.lisDestaq {
+
+    list-style-type: katakana;
+    color: #2255AA;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.precoVelho {
+
+    text-decoration-line: line-through;
+
+}
+
+.preco {
+
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.imgDestaq {
+
+    float: right;
+    margin-top: -30px;
+}
+
+#centro {
+
+    position: relative;
+    margin-left: 420px;
+    margin-top: 20px;
+
+}
+
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 3 */
+/*---------------------------------------------------------------------------------*/
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 4 */
+#tabInfo {
+
+    border-collapse: collapse;
+    background-color: #FFFFCC;
+    color: #2255AA;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+th {
+
+    border: solid 2px #000000;
+    padding: 6px 12px 6px 12px;
+
+}
+
+.linTH {
+
+    color: #FFFFFF;
+    background-color: #0077BB;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.colTH {
+
+    color: #005599;
+    background-color: #FFCC77;
+    text-align: left;
+
+}
+
+.preco {
+
+    color: #CC0000;
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+
+#centrocatalogo {
+
+    position: relative;
+    margin-left: 297px;
+    margin-top: 20px;
+
+}
+
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 4 */
+/*---------------------------------------------------------------------------------*/
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 5 */
+
+#centroCompras {
+
+    margin-left: 390px;
+}
+
+#fsDados {
+
+    color: #2255AA;
+    background-color: #FFFFCC;
+    margin: 20px 10px 0px 10px;
+    width: 510px;
+
+
+}
+
+#fsEsq {
+
+    float: left;
+    margin: 0px 0px 6px 0px;
+    width: 220px;
+
+}
+
+#fsDir {
+
+    float: right;
+    width: 220px;
+    margin: 0px 0px 6px 0px;
+    height: 50px;
+
+}
+
+#nascimento {
+
+    margin-top: -127px;
+    width: 220px;
+    margin-bottom: 6px;
+    float: right;
+    display: block;
+}
+
+
+#meiaLinDir {
+
+    width: 220px;
+    float: right;
+    margin-bottom: 6px;
+}
+
+#meiaLinEsq {
+
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#divLinha {
+
+    width: 490px;
+    margin-bottom: 18px;
+}
+
+#colPri {
+
+    float: left;
+    display: block;
+    width: 84px;
+}
+
+#elemDir {
+
+    float: right;
+    display: block;
+    resize: vertical;
+    margin-top: 29px;
+}
+
+#botoes {
+
+    float: left;
+    margin: 12px 10px 12px 10px;
+}
+
+#custombotao {
+
+    width: 65px;
+    border-radius: 4px;
+    border-style: solid;
+    background: whitesmoke;
+    padding: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#impGrande {
+
+    width: 390px;
+    border-radius: 4px;
+    margin-left: 32px;
+    padding: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+#impMedio {
+
+    width: 120px;
+    margin-left: 50px;
+    border-radius: 4px;
+    padding: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+#impTel {
+
+    width: 90px;
+    padding: 3px;
+    border-radius: 4px;
+    margin-left: 13px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+
+}
+
+#aligncel {
+
+    margin-left: 72px;
+    margin-top: -23px;
+}
+
+#numDD {
+
+    width: 40px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+#numQD {
+
+    width: 60px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+#impNCC {
+
+    width: 130px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+#textarea1 {
+
+    margin-left: 87px;
+    margin-top: -20px;
+    display: block;
+    resize: vertical;
+}
+
+#aligngender {
+
+    margin-top: 2px;
+
+}
+
+#alignbandeira {
+
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+/* Container */
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+/* Tira o radio default do HTML */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Cria um botão radio customizado */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+/* Quando clicado, adiciona cor de fundo*/
+.container input:checked~.checkmark {
+    background-color: #BB0D0D;
+}
+
+/* Cria o indicador */
+.checkmark:after {
+    content: " ";
+    position: absolute;
+    display: none;
+}
+
+/* Mostra o indicador quando selecionado */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Esrilo do indicador (ponto/circulo) */
+.container .checkmark:after {
+
+    margin: 4.5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+#dvd {
+
+    border-radius: 4px;
+    background: whitesmoke;
+    padding: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+#aligndvd {
+
+    margin-top: 3px;
+}
+
+#comprar {
+
+    width: 90px;
+    border-radius: 4px;
+    border-style: solid;
+    background: whitesmoke;
+    padding: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#alignvalid {
+
+    margin-top: 90px;
+
+
+}
+
+#aligndatavalid {
+
+    margin-left: 90px;
+    margin-top: -25px;
+}
+
+#validade {
+
+    width: 55px;
+    padding: 2px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+
+#alignnumero {
+    margin-left: 90px;
+    margin-top: -25px;
+}
+
+#valordacompra {
+
+    float: right;
+    margin-top: 35px;
+
+}
+
+#valortotal {
+
+    width: 130px;
+    padding: 3px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*ESTILOS REFENTES AO EXERCÍCIO NÚMERO 5 */
